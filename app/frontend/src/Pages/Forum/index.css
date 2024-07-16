@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+body {
+    background-color: #ECF5DF;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 99vw;
+    min-height: 100vh;
+  }
+.center .logo{
+   width: 200px;
+    margin: 2px;
+    margin: 2px auto;
+    
+}
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2%;
+    justify-content: space-between;
+    position: relative;
+    
+  }
+
+header {
+    background-color: #D4F8A8;
+    border-top: 10px solid #b9f86b;
+    padding: 20px;
+    text-align: center;
+}
+   .botao button{
+     background-color: #88db1c ;
+     padding: 7px;
+     font-size: 20px;
+     margin-left: 30px;
+     color: white;
+     border: none;
+     border-radius: 3px;
+     cursor: pointer;
+     margin: 5px;
+     margin-top: 10px;
+   }
+   
+   .botao button:hover {
+     color: black;
+     background-color: transparent;
+     border: 1px solid #619D15;
+     box-shadow: 0 0 20px 5px #619D15;
+     transition: 80ms linear;
+     transform: translate(-10px);
+     cursor: pointer;
+   }
+   .zoom{
+    position: absolute;
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    flex-direction: column;
+    top: 250px;
+    left: 0; 
+    margin-left: 15px;
+     
+   }
+   
+   .zoom button{
+     background-color: #010200dc ;
+     padding: 10px;
+     font-weight: bold;
+     font-size: 15px;
+     color: white;
+     border: none;
+     border-radius: 3px;
+     cursor: pointer;
+     margin-top: 5px;
+     margin-left: 20px;
+     outline: none;
+   }
+   .zoom button:hover {
+     color: black;
+     background-color: transparent;
+     border: 1px solid #ffffff;
+     box-shadow: 0 0 20px 5px #000000;
+     transition: 80ms linear;
+     transform: translate(-10px);
+     cursor: pointer;
+   }
+
+main {
+    padding: 20px;
+}
+.texto h1{
+    text-align: center;
+  
+    color: #0e3a02;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.texto p{
+    text-align: center;
+    font-weight: bold;
+    width: 1500px;
+    margin-left: 170px;
+
+
+}
+.topic {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    text-align: justify;
+    position: relative; 
+    background-color: white;
+    
+}
+.pesquisa {
+    order: 1;
+    top: 70px;
+    margin-left: 230px;
+    position: absolute;
+  
+    background: rgb(255, 255, 255);
+    height: 50px;
+    width: 35%;
+    border-radius: 40px;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ::-webkit-input-placeholder{
+    font-size: 17px;
+    color: #aeaeae;
+  }
+  .search-text{
+  background: none;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  padding: 0;
+  
+  }
+  
+  .search-bnt{
+    cursor: pointer;
+  }
+  
+  
+  .search-bnt{
+    cursor: pointer;
+  }
+
+.Topic:hover{
+    
+    transform: translate(+10px);
+    cursor: pointer;
+
+
+}
+.topic h2 a {
+    color: #333;
+}
+
+.topic h2 a:hover {
+    text-decoration: underline;
+}
+
+.user-name {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.pesquisa {
+    order: 1;
+    width: 35%;
+    margin-top: x; 
+    margin-right: auto; 
+  }
+
+
+.img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+}
+.nav-link{
+    color: black;
+    font-size: 24px;
+
+}
+
+.navbar .btn-login, .navbar .btn-cadastro {
+    margin-left: 10px;
+}
