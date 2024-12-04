@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from 'C:/eb_peiii/app/frontend/src/imagens/logo.png';
-import loupewhite from "C:/eb_peiii/app/frontend/src/imagens/loupe-white.svg";
+import logo from '../../imagens/logo.png';
+import loupewhite from '../../imagens/loupe-white.svg';
 import './index.css';
 
 const Forum = () =>  {

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import './index.css'; // Importe o seu CSS
-import logo from 'C:/eb_peiii/app/frontend/src/imagens/logo.png';
+import logo from '../../imagens/logo.png';
 
 function Cadastro() {
     const [full_name, setFullName] = useState('');

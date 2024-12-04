@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './index.css';
-import logo from 'C:/eb_peiii/app/frontend/src/imagens/logo.png';
-import IconsAcessibility from 'C:/eb_peiii/app/frontend/src/imagens/iconsAcessibility.png';
-import loupewhite from "C:/eb_peiii/app/frontend/src/imagens/loupe-white.svg";
+import logo from '../../imagens/logo.png';
+import IconsAcessibility from '../../imagens/iconsAcessibility.png';
+import loupewhite from '../../imagens/loupe-white.svg';
 
 const MainPage = () => {
   const zoomStep = 10;
