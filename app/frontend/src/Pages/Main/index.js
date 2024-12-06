@@ -28,7 +28,7 @@ const MainPage = () => {
       <header>
         <div className="center">
           <div className="logo-container">
-          <img src={logo} alt="Logo da A.D.L.U" className="logo" />
+          <img src={logo}  alt="Logo da A.D.L.U" className="logo" />
           </div>
 
           <div className="botao">
